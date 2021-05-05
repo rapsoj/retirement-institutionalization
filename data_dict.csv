@@ -1,0 +1,69 @@
+﻿variable,label,coding
+idauniq,Unique individual serial number,Individual identifier
+wave,Wave number,Wave identifier
+indout,Cleaned individual outcome code,0 = Not in institution; 1 = In institution
+couple,Relationship status (derived from household grid),0 = Neither; 1 = Married; 2 = Cohabit
+chinhh,Whether respondent has a child in the household,0 = No; 1 = Yes
+gcinhh,Whether respondent has a grandchild in the household,0 = No; 1 = Yes
+hhtot,Number of people in household (computed),Continuous
+indager,"Definitive age variable collapsed at 90 plus. Priority: Diag, Dhage",99 = Greater than 90
+disex,Respondent sex,0 = Female; 1 = Male
+fqethnr,Ethnicity recoded into white and non-white,0 = Non-white; 1 = White
+dimar,Respondent current legal marital status,0 = Single/Never married; 1 = Married/Civil; 2 = Separated/Divorced; 3 = Widowed
+dianm,Age of natural mother,Continuous
+dimad,Age (or estimated age) at death of mother of respondent,Continuous
+dianf,Age of natural father,Continuous
+difad,Age (or estimated age) at death of father of respondent,Continuous
+heill,Whether has self-reported long-standing illness,0 = No; 1 = Yes
+helim,Whether long-standing illness is limiting,0 = No; 1 = Yes
+helwk,Whether has self-reported health problem/disability that limits paid work,0 = No; 1 = Yes
+heaga,Age first told had angina,0 = No; 1 = Yes
+heagb,Age first told had heart attack,0 = No; 1 = Yes
+heagc,Age first told had congestive heart failure,0 = No; 1 = Yes
+heagd,Age first told had diabetes or high blood sugar,0 = No; 1 = Yes
+heage,Age first told had stroke,0 = No; 1 = Yes
+heagf,Age first told had arthritis,0 = No; 1 = Yes
+heagg,Age first told had cancer,0 = No; 1 = Yes
+heagh,Age told had psychiatric problems,0 = No; 1 = Yes
+heagi,Age told had Alzheimers Disease,0 = No; 1 = Yes
+heagj,Age told had dementia,0 = No; 1 = Yes
+heagk,"Age told had leukaemia, lymphoma",0 = No; 1 = Yes
+heprk,Age told had Parkinsons Disease,0 = No; 1 = Yes
+STA257,Activities during last month: paid work,0 = No; 1 = Yes
+wpactse,Activities during last month: self-employment,0 = No; 1 = Yes
+wpactvw,Activities during last month: voluntary work,0 = No; 1 = Yes
+wpactca,Activities during last month: cared for someone,0 = No; 1 = Yes
+wpactlo,Activities during last month: looked after home or family,0 = No; 1 = Yes
+wpacted,Activities during last month: attended a formal educational or training course,0 = No; 1 = Yes
+wpaway,Were you not in paid work during the last month due to any of these reasons?,"0 = Not looking for work; 1 = Looking for, waiting for, or temporarly away from work"
+wptaw,Main reason for being away from work last month,0 = Not illness; 1 = Illness
+wpdes,Best description of current situation,"0 = Fully retired; 1 = Semi-retired; 2 = Employed; 3 = Self-employed, 4 = Unemployed; 5 = Permanently sick or disabled; 6 = Looking after family"
+wpvw,How often do you do any voluntary work?,0 = Never; 1 = Less than once a year; 2 = One or twice a year; 3 = Every few months; 4 = Once a month; 5 = Twice a month or more
+wpever,Have you ever done any paid work?,0 = No; 1 = Yes
+wpljobm,What was your main reason for leaving your previous job?,0 = Not illness or disability; 1 = Illness or disability
+wpsal,Are you paid a salary/wage in your main job?,0 = No; 1 = Yes
+wpwly,Have you done any regular paid work in last 12 months?,0 = No; 1 = Yes
+wpwlym,Weeks in employment or self-employment in last 12 months (inc. partial weeks),Continuous
+wpwlyy,How much did gross income from work amount to in the last year,Continuous
+wpystoh,Reasons for stopping work: own ill health or disability,0 = No; 1 = Yes
+wplnj,Are you currently looking for a new job?,0 = No; 1 = Yes
+wpcret,Is there a compulsory retirement age at your current job?,0 = No; 1 = Yes
+wpcrage,What is the compulsory retirement age?,Continuous
+wpcretl,Would you like to work beyond the compulsory retirement age if employer let you?,0 = No; 1 = Yes
+wprage,"You said earlier that you were (semi-)retired, at what age did you retire?",Continuous
+wpearly,Been offered anyearly retirement incentives since age 50 which you didnt take?,0 = No; 1 = Yes
+wperag,How old were you?,Continuous
+wperet,Did you take early retirement?,0 = No; 1 = Yes
+wperp,"When you first retired, did you retire on a full pension?",0 = No pension; 1 = Reduced pension; 2 = Full pension
+wpreaoh,Reasons for taking early retirement: own ill health,0 = No; 1 = Yes
+wprrag,Reasons for retiring: own ill health,0 = No; 1 = Yes
+wpwkr,Did you have the opportunity to work past retirement age?,0 = No; 1 = Yes
+iawork,Did respondent or spouse do any work for pay in the last year,0 = No; 1 = Yes
+iasinc,Gross earnings received by respondent (and spouse) in the last year,Continuous
+iafcon,How is respondent (and partner) getting along financially these days,0 = Manage very well; 1 = Manage quite well; 2 = Get by alright; 3 = Don't manage well; 4 = Some financial difficulties; 5 = Severe financial difficulties
+expw,Expectation (%) that that they will be working after [age] [depends on age/sex],Continuous
+exhlim,Expectation (%) that their health will limit their ability to work before age 65,Continuous
+exrslf,Expectation (%) that they will not have enough financial resources to meet needs,Continuous
+fqcbthr,Country of birth recoded into UK and non-UK,0 = Non-UK; 1 = UK
+edqual,(D) Highest Educational Qualification at ELSA Wave #,0 = No qualification; 1 = Foreign qualification; 2 = NVQ1; 3 = NVQ2; 4 = NVQ3; 5 = Higher education below degree; 6 = NVQ4 or NVQ5
+eqtotinc_bu_s,Equivalizes total income,
