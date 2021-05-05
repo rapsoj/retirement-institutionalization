@@ -1,6 +1,6 @@
 # Impact of early retirement on care home admission in the English Longitudinal Study of Ageing (ELSA)
 
-Code and data for panel data project.
+Code for panel data project.
 
 ### Tools
 
